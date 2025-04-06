@@ -1,0 +1,36 @@
+{
+  "name": "book-store-api",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "node --max-old-space-size=8192 ./node_modules/typescript/bin/tsc",
+    "lint": "eslint . --ext .ts",
+    "vercel-build": "echo hello"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@types/express": "^5.0.1",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.27.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^7.5.0",
+    "express-xss-sanitizer": "^2.0.0",
+    "firebase-admin": "^13.2.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.12.2"
+  }
+}

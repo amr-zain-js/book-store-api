@@ -1,0 +1,44 @@
+# Node.js dependencies
+/node_modules
+
+# Build output
+/dist
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp
+/logs
+
+book-store-c5249-firebase-adminsdk-fbsvc-91be672c67.json
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage reports
+/coverage
+
+# Debugging and profiling
+*.prof
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+git
+# Optional: If you use Docker
+docker-compose.override.yml
+Dockerfile.*
+
+# Optional: If you use specific frameworks
+*.sqlite
+.vercel
